@@ -69,6 +69,12 @@ namespace Projeto_Teste_Git
 
                 Copiando um repositório com histórico de commits para seu computador
 	                --> git clone <URI do repositório>
+
+                Atualizando seu repositório local
+	                Quando se esta trabalhando em um projeto em equipe, 
+	                sempre antes de iniciar um dia de trabalho é importante deixar seu repositório local 
+	                igual ao remoto.
+	                --> git pull origin master
             ");
         }
     }
