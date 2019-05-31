@@ -40,6 +40,12 @@ namespace Projeto_Teste_Git
 	                Primeiro cenário: Descartar todas as modificações, voltando ao estado do commit atual.
 	                --> git clean -df
 	                --> git checkout -- .
+
+                E se eu quiser desfazer o último commit?
+	                Primeiro cenário: Remover o último commit mantando as alterações nos arquivos:
+	                --> git reset --soft HEAD~1
+	                Segundo cenário: Remover o último commit DESCARTANDO as alterações nos arquivos: (Cuidado!)
+	                --> git reset --hard HEAD~1
             ");
         }
     }
