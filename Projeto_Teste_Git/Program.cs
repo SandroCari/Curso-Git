@@ -61,6 +61,10 @@ namespace Projeto_Teste_Git
                     --> git remote add origin https://github.com/SandroCari/Curso-Git.git
                     2 - Caso queira mudar o repositório remoto:
                     --> git remote set - url origin < nova URL >
+
+                Subindo o repositório local para o github
+	                --> git push -u origin master (primeira vez)
+	                --> git push (próximas vezes)
             ");
         }
     }
