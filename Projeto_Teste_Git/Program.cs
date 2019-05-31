@@ -31,6 +31,10 @@ namespace Projeto_Teste_Git
                 Verificando os commits existentes:
                 --> git log(versão detalhada);
                 --> git log--oneline(versão resumida);
+
+                E se eu esquecer de colocar a descrição do commit ???
+	                O editor VIM será aberto, entretanto é melhor sair (abortar o commit e realiza-lo novamente com a mensagem)
+	                --> :q! (sai do editor);
             ");
         }
     }
