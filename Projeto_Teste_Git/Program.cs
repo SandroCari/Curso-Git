@@ -35,6 +35,11 @@ namespace Projeto_Teste_Git
                 E se eu esquecer de colocar a descrição do commit ???
 	                O editor VIM será aberto, entretanto é melhor sair (abortar o commit e realiza-lo novamente com a mensagem)
 	                --> :q! (sai do editor);
+	
+                E se eu me perder e quiser voltar ao estado do commit atual?
+	                Primeiro cenário: Descartar todas as modificações, voltando ao estado do commit atual.
+	                --> git clean -df
+	                --> git checkout -- .
             ");
         }
     }
