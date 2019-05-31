@@ -65,6 +65,10 @@ namespace Projeto_Teste_Git
                 Subindo o repositório local para o github
 	                --> git push -u origin master (primeira vez)
 	                --> git push (próximas vezes)
+                ------------------------------------------------------
+
+                Copiando um repositório com histórico de commits para seu computador
+	                --> git clone <URI do repositório>
             ");
         }
     }
