@@ -46,6 +46,11 @@ namespace Projeto_Teste_Git
 	                --> git reset --soft HEAD~1
 	                Segundo cenário: Remover o último commit DESCARTANDO as alterações nos arquivos: (Cuidado!)
 	                --> git reset --hard HEAD~1
+	
+                E se eu quiser somente dar uma olhada em um commit anterior?
+	                Importante: é preciso estar com o git status vazio, sem nada para commitar.
+	                --> git checkout 00aa00a (usa o código do commit, que pode ser visto com o git log);
+	                --> git checkout branch (volta ao último commit da branch (master neste caso));
             ");
         }
     }
