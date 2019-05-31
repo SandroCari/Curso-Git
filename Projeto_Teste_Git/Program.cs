@@ -51,6 +51,16 @@ namespace Projeto_Teste_Git
 	                Importante: é preciso estar com o git status vazio, sem nada para commitar.
 	                --> git checkout 00aa00a (usa o código do commit, que pode ser visto com o git log);
 	                --> git checkout branch (volta ao último commit da branch (master neste caso));
+
+                -------------------GitHub-------------------------
+                1 - Crie um repositório em sua conta no GitHub, neste caso 'Curso - Git'
+
+                Associando um repositório remoto ao seu repositório local
+
+                    1 - Associar nosso repositório local ao repositório remoto, dando o apelido de 'origin' a ele:
+                    --> git remote add origin https://github.com/SandroCari/Curso-Git.git
+                    2 - Caso queira mudar o repositório remoto:
+                    --> git remote set - url origin < nova URL >
             ");
         }
     }
